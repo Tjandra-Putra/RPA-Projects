@@ -1,6 +1,9 @@
-# RPA-Projects
+# Data Scraping - Website
 Projects are completed and developed using Ui Path Studio
 
-1) Staff-Analytics-Processor
-- A simple system that has customizable filters for excel. Users can filters data by columns and save it into a new excel file. 
-- For this case, the system is made to filter staff by "Sales" made and "Product Category". 
+## Usage
+```
+- This program extracts data from a website and save it into an excel file. If the excel file is not found, it will automatically create a new excel file and store the data. Every time when the program is executed, it will overwrite the existing data in the excel file and store the most recent data from the website.
+
+- For this example, the program is able to extract the product "3-ply Surgical masks" details : Product Name, URL, Prices, Qty sold.
+```
