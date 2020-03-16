@@ -16,3 +16,19 @@ create and save into a new specified folder.
 5) Specify name of newly created file name
 6) Specify the directory path of the newly created file to be saved in
 ```
+
+## Logic & Process Flow
+```
+1) Reads excel file
+2) Store excel data into data table
+3) Merge data tables
+4) Remove duplicated columns
+5) Filter data table
+6) Convert data table into string (output data table)
+7) Prompt user for file name
+8) Convert file name into .xlsl format using string concatenation : prompt_name + ".xlsl"
+9) Save as .xlsl file format
+10) Prompt user for directory path
+11) Move file from current directory to specified user directory path
+
+```
