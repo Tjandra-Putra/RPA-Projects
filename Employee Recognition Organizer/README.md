@@ -1,15 +1,17 @@
 # Employee Recognition Organizer
 Projects are completed and developed using Ui Path Studio
 
+## Objective
+```
+This workflow merges two excel files (.xlsl) and filter data based on specified constraints, create and save into a new specified folder.
+```
+
 ## Usage
 ```
-- This program extracts data from a website and save it into an excel file. If the excel file is not found, 
-it will automatically create a new excel file and store the data. Every time when the program is executed, 
-it will overwrite the existing data in the excel file and store the most recent data to the execel file from the website.
-
-- For this example, the program is able to extract the product "3-ply Surgical masks" details :
-1)Product Name
-2) Product URL
-3) Product Price
-3) Product Qty sold.
+1) Specify the files to be merged (.xlsl)
+2) Specify foreign key (common column name(s))
+3) Specify duplicating column names to be removed (if any)
+4) Impose constraints (conditions "if")
+5) Specify name of newly created file name
+6) Specify the directory path of the newly created file to be saved in
 ```
