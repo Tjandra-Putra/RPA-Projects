@@ -8,7 +8,7 @@ it will automatically create a new excel file and store the data. Every time whe
 it will overwrite the existing data in the excel file and store the most recent data to the execel file from the website.
 
 - For this example, the program is able to extract the product "3-ply Surgical masks" details :
-1)Product Name
+1) Product Name
 2) Product URL
 3) Product Price
 3) Product Qty sold.
