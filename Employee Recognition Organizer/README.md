@@ -3,8 +3,8 @@ Projects are completed and developed using Ui Path Studio
 
 ## Objective
 ```
-This workflow merges two excel files (.xlsl) and filter data based on specified constraints, create and save into
-a new specified folder.
+This workflow merges two excel files (.xlsl) and filter data based on specified constraints,
+create and save into a new specified folder.
 ```
 
 ## Usage
