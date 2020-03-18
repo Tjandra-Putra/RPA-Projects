@@ -5,6 +5,17 @@ Projects are completed and developed using Ui Path Studio
 ```
 This workflow merges two excel files (.xlsl) and filter data based on specified constraints,
 create and save into a new specified folder.
+
+For this example, two excel files "Employee Details.xlsx" and "Employee Performance Review.xlsx"
+are merged together. The data in the merged file is then filtered based on:
+
+1) Attendance Rate = 100%
+2) Social Rating = A
+3) Productivity = Excellent
+
+The filtered data is stored into a new excel spread sheet.
+
+
 ```
 
 ## Usage
