@@ -1,15 +1,23 @@
-# Data Scraping - Website
+# Data Scraping
 Projects are completed and developed using Ui Path Studio
+
+## Objective
+```
+This work flow automate and scrap data from any website and stores the data in an excel file. It then filters data 
+based on the imposed constraints and stores the filtered data into a new excel file(auto generated).
+
+
+```
 
 ## Usage
 ```
-- This program extracts data from a website and save it into an excel file. If the excel file is not found, 
-it will automatically create a new excel file and store the data. Every time when the program is executed, 
-it will overwrite the existing data in the excel file and store the most recent data to the execel file from the website.
+1) Click run, do not move your mouse.
+2) If excel file is not found, new excel file will be automatically detected.
+```
 
-- For this example, the program is able to extract the product "3-ply Surgical masks" details :
-1) Product Name
-2) Product URL
-3) Product Price
-3) Product Qty sold.
+## Logic & Process Flow
+```
+1) Uses web recording function
+
+
 ```
