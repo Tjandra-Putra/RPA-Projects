@@ -3,7 +3,8 @@ Projects are completed and developed using Ui Path Studio
 
 ## Objective
 ```
-This workflow automates and filters applicants' resume(.PDF) or any other documents(.PDF) based on "Key Words" from a specific folder and move successful applicants' file over to a new folder.
+This workflow automates and filters applicants' resume(.PDF) or any other documents(.PDF) based on "Key Words" 
+from a specific folder and move successful applicants' file over to a new folder.
 
 For this example, applicants' resumes are filtered based on key word:
 
