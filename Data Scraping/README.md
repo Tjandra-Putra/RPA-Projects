@@ -3,7 +3,8 @@ Projects are completed and developed using Ui Path Studio
 
 ## Objective
 ```
-This work flow automate and scrap data from any website and stores the data in an excel file. It then filters data 
+This work flow automate and scrap data from any website and stores the data in an excel file. It then 
+filters data 
 based on the imposed constraints and stores the filtered data into a new excel file(auto generated).
 
 
