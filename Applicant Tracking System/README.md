@@ -1,45 +1,36 @@
-# Employee Recognition Organizer
+# Applicant Tracking System
 Projects are completed and developed using Ui Path Studio
 
 ## Objective
 ```
-This workflow merges two excel files (.xlsl) and filter data based on specified constraints,
-create and save into a new specified folder.
+This workflow automates and filters applicants' resume(.PDF) or any other documents(.PDF) based on "Key Words" 
+from a specific folder and move successful applicants' file over to a new folder.
 
-For this example, two excel files "Employee Details.xlsx" and "Employee Performance Review.xlsx"
-are merged together. The data in the merged file is then filtered based on:
+For this example, applicants' resumes are filtered based on key word:
 
-1) Attendance Rate = 100%
-2) Social Rating = A
-3) Productivity = Excellent
+1) Bootstrap
+2) C#
 
-The filtered data is stored into a new excel spread sheet.
-
-
+Location File : Process Applicant
+Destination File : Selected Applicant
 ```
 
 ## Usage
 ```
-1) Specify the files to be merged (.xlsl)
-2) Specify foreign key (common column name(s))
-3) Specify duplicating column names to be removed (if any)
-4) Impose constraints (conditions "if")
-5) Specify name of newly created file name
-6) Specify the directory path of the newly created file to be saved in
+1) Specify location of where the applicants are stored
+2) Specify destination of where the filtered applicants are to be stored
+3) Impose constraints under "if" block. Optional to use "AND" / "OR"
+
+true and false = false
+true or false = true;
+
 ```
 
 ## Logic & Process Flow
 ```
-1) Reads excel file
-2) Store excel data into data table
-3) Merge data tables
-4) Remove duplicated columns
-5) Filter data table
-6) Convert data table into string (output data table)
-7) Prompt user for file name
-8) Convert file name into .xlsl format using string concatenation : prompt_name + ".xlsl"
-9) Save as .xlsl file format
-10) Prompt user for directory path
-11) Move file from current directory to specified user directory path
+1) Input - Directory path for location file
+2) Input - Directory path for destination file
+3) For each item in the location file 
+4) Impose constraint, if TRUE : Counter++ and move file function
 
 ```
