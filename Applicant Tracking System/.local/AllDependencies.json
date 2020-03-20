@@ -1803,9 +1803,9 @@
     "restore": {
       "projectUniqueName": "Applicant Tracking System",
       "projectName": "Applicant Tracking System",
-      "projectPath": "C:\\Users\\Tjandra Putra\\Documents\\UiPath\\Applicant Tracking System\\.local",
+      "projectPath": "C:\\Users\\Tjandra Putra\\Documents\\RPA - Personal Projects\\Applicant Tracking System\\.local",
       "packagesPath": "C:\\Users\\Tjandra Putra\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tjandra Putra\\Documents\\UiPath\\Applicant Tracking System\\.local"
+      "outputPath": "C:\\Users\\Tjandra Putra\\Documents\\RPA - Personal Projects\\Applicant Tracking System\\.local"
     },
     "frameworks": {
       "net461": {

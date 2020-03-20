@@ -42,6 +42,21 @@
     },
     {
       "Package": {
+        "Id": "UiPath.PDF.Activities",
+        "Version": "3.2.2-preview"
+      },
+      "Assemblies": [
+        "C:\\Users\\Tjandra Putra\\.nuget\\packages\\bitmiracle.docotic.pdf/5.10.9957\\lib/net40/BitMiracle.Docotic.Pdf.dll",
+        "C:\\Users\\Tjandra Putra\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
+        "C:\\Users\\Tjandra Putra\\.nuget\\packages\\uipath.ocr.contracts/2.5.0-preview\\lib/net45/UiPath.OCR.Contracts.dll",
+        "C:\\Users\\Tjandra Putra\\.nuget\\packages\\uipath.pdf.activities/3.2.2-preview\\lib/net461/UiPath.PDF.Activities.Design.dll",
+        "C:\\Users\\Tjandra Putra\\.nuget\\packages\\uipath.pdf.activities/3.2.2-preview\\lib/net461/UiPath.PDF.Activities.dll",
+        "C:\\Users\\Tjandra Putra\\.nuget\\packages\\uipath.pdf.activities/3.2.2-preview\\lib/net461/UiPath.PDF.dll"
+      ],
+      "Path": "C:\\Users\\Tjandra Putra\\.nuget\\packages\\uipath.pdf.activities/3.2.2-preview"
+    },
+    {
+      "Package": {
         "Id": "UiPath.System.Activities",
         "Version": "20.2.0-preview"
       },
@@ -108,21 +123,6 @@
         "C:\\Users\\Tjandra Putra\\.nuget\\packages\\uipath.vision/2.0.1\\lib/net452/UiPath.Vision.dll"
       ],
       "Path": "C:\\Users\\Tjandra Putra\\.nuget\\packages\\uipath.uiautomation.activities/20.2.0-preview"
-    },
-    {
-      "Package": {
-        "Id": "UiPath.PDF.Activities",
-        "Version": "3.2.2-preview"
-      },
-      "Assemblies": [
-        "C:\\Users\\Tjandra Putra\\.nuget\\packages\\bitmiracle.docotic.pdf/5.10.9957\\lib/net40/BitMiracle.Docotic.Pdf.dll",
-        "C:\\Users\\Tjandra Putra\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
-        "C:\\Users\\Tjandra Putra\\.nuget\\packages\\uipath.ocr.contracts/2.5.0-preview\\lib/net45/UiPath.OCR.Contracts.dll",
-        "C:\\Users\\Tjandra Putra\\.nuget\\packages\\uipath.pdf.activities/3.2.2-preview\\lib/net461/UiPath.PDF.Activities.Design.dll",
-        "C:\\Users\\Tjandra Putra\\.nuget\\packages\\uipath.pdf.activities/3.2.2-preview\\lib/net461/UiPath.PDF.Activities.dll",
-        "C:\\Users\\Tjandra Putra\\.nuget\\packages\\uipath.pdf.activities/3.2.2-preview\\lib/net461/UiPath.PDF.dll"
-      ],
-      "Path": "C:\\Users\\Tjandra Putra\\.nuget\\packages\\uipath.pdf.activities/3.2.2-preview"
     }
   ],
   "Conflicts": [],
