@@ -3,22 +3,22 @@ Projects are completed and developed using Ui Path Studio
 
 ## Objective
 ```
-This work flow automate and scrap data from any website and stores the data in an excel file. It then 
-filters data 
-based on the imposed constraints and stores the filtered data into a new excel file(auto generated).
+This work flow sends SMTP email based on excel input. User can choose different email accounts to
+send the emails.
 
 
 ```
 
 ## Usage
 ```
-1) Click run, do not move your mouse.
-2) If excel file is not found, new excel file will be automatically detected.
+1) Type in your email, password, subject and body message
 ```
 
 ## Logic & Process Flow
 ```
-1) Uses web recording function
-
+1) Reads excel file
+2) Iterate through the excel file
+3) Pulls out email
+4) Email execution
 
 ```
