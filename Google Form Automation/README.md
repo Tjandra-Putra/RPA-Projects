@@ -1,45 +1,26 @@
-# Excel Data Migration and Entry
+# Google Form Automation
 Projects are completed and developed using Ui Path Studio
 
 ## Objective
 ```
-This workflow merges two excel files (.xlsl) and filter data based on specified constraints,
-create and save into a new specified folder.
-
-For this example, two excel files "Employee Details.xlsx" and "Employee Performance Review.xlsx"
-are merged together. The data in the merged file is then filtered based on:
-
-1) Attendance Rate = 100%
-2) Social Rating = A
-3) Productivity = Excellent
-
-The filtered data is stored into a new excel spread sheet.
-
-
+This workflow auto fills google form base on excel input. This helps to save time and 
+elimate human error possibility.
 ```
 
 ## Usage
 ```
-1) Specify the files to be merged (.xlsl)
-2) Specify foreign key (common column name(s))
-3) Specify duplicating column names to be removed (if any)
-4) Impose constraints (conditions "if")
-5) Specify name of newly created file name
-6) Specify the directory path of the newly created file to be saved in
+1) Ensure there are data in the excel file.
+2) Make sure the excel file is closed before running the workflow.
 ```
 
 ## Logic & Process Flow
 ```
 1) Reads excel file
-2) Store excel data into data table
-3) Merge data tables
-4) Remove duplicated columns
-5) Filter data table
-6) Convert data table into string (output data table)
-7) Prompt user for file name
-8) Convert file name into .xlsl format using string concatenation : prompt_name + ".xlsl"
-9) Save as .xlsl file format
-10) Prompt user for directory path
-11) Move file from current directory to specified user directory path
+2) Stores excel data into data table
+3) Web recording function
+4) Replace "type over" field with read row from excel
+5) Add a delay to ensure that the page is fully loaded before proceeding.
+6) Add a go back function to redirect to previous page.
+7) Process repeats until all rows have been read.
 
 ```
